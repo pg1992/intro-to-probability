@@ -1,5 +1,3 @@
-#! /usr/bin/env python
-
 """
 This module contains the scripts for the simulations of the
 questions 1 and 2 from section 1.1 of the book
@@ -34,8 +32,8 @@ def printTosses(maxTosses: int = 1000, interval: int = 100):
             prop = num_heads / i - .5
             print(f'{i:06d}: Proportion of heads minus 1/2 = {prop:.3f}.')
 
-            prop *= i
-            print(f'{i:06d}: # of heads minus 1/2 the # of tosses: {prop:d}.')
+            prop = int(prop * i)
+            print(f'{i:06d}: # of heads minus 1/2 the # of tosses: {prop}.')
             print('-' * 80)
 
 
