@@ -8,3 +8,9 @@ Problem 1
 
 The proportion of heads minus 0.5 approaches 0 as n increases, but the number
 of heads minus half the number of heads plus tails does not approach 0.  Weird...
+
+Problem 2
+---------
+
+We need about 65 tosses so that the proportion of heads lies within 0.1 of
+0.5 (i.e., between 0.4 and 0.6) in 95 out of 100 experiments.
