@@ -14,3 +14,10 @@ Problem 2
 
 We need about 67 tosses so that the proportion of heads lies within 0.1 of
 0.5 (i.e., between 0.4 and 0.6) in 95 out of 100 experiments.
+
+Problem 3
+---------
+
+Running a simulation with 100.000.000 rolls of 3 dice it is possible to see
+that the gamblers were correct, because 10 (0.125) came up more often than
+9 (0.116).
