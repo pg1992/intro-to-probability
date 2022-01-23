@@ -2,7 +2,8 @@ Introduction to Probability
 ===========================
 
 Solutions to the proposed problems in the book
-Introduction to Probability by Grinstead and Snell.
+[Introduction to Probability](https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/book.html)
+by Grinstead and Snell.
 
 Overview
 --------
