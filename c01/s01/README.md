@@ -38,3 +38,10 @@ Problem 6
 
 The simulation shows that you'll probably lose making 1,000 bets on red
 on a game of roulette.
+
+Problem 7
+---------
+
+The graph is way smoother when you bet on a color (you'll mostly lose
+anyways).  When you bet on a number the graph has a lot of jumps due to
+the +35 when you (unlikely) win.
