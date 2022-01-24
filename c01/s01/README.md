@@ -32,3 +32,9 @@ Problem 5
 ---------
 
 We should get probability greater than 0.5 if we 3 dice 150 times.
+
+Problem 6
+---------
+
+The simulation shows that you'll probably lose making 1,000 bets on red
+on a game of roulette.
