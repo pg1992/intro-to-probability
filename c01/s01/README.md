@@ -27,3 +27,8 @@ Problem 4
 
 Running a simulation of 10,000 games, the proportion of games won is
 approximately 0.82.
+
+Problem 5
+---------
+
+We should get probability greater than 0.5 if we 3 dice 150 times.
