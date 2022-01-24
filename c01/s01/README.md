@@ -18,6 +18,12 @@ We need about 67 tosses so that the proportion of heads lies within 0.1 of
 Problem 3
 ---------
 
-Running a simulation with 100.000.000 rolls of 3 dice it is possible to see
+Running a simulation with 100,000,000 rolls of 3 dice it is possible to see
 that the gamblers were correct, because 10 (0.125) came up more often than
 9 (0.116).
+
+Problem 4
+---------
+
+Running a simulation of 10,000 games, the proportion of games won is
+approximately 0.82.
