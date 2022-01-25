@@ -45,3 +45,10 @@ Problem 7
 The graph is way smoother when you bet on a color (you'll mostly lose
 anyways).  When you bet on a number the graph has a lot of jumps due to
 the +35 when you (unlikely) win.
+
+Problem 17
+----------
+
+For a random walk in 2 dimensions, sometimes it comes back to the origin,
+but sometimes it takes a very long time, and other times it returns quite
+quickly.
