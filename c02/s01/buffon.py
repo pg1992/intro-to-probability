@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     for _ in range(trials):
         # we only need to account for the y coordinate of the extremeties of
-        # the needle
+        # the needle if we assume that all lines are horizontal
         angle = np.pi * np.random.sample()
         y1 = 10 * np.random.sample()
         y2 = y1 + np.sin(angle)
