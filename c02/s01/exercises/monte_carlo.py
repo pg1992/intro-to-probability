@@ -39,5 +39,22 @@ def problem_3():
           f"error = {error:.2f}.")
 
 
+def problem_4():
+    num_points = 10000
+
+    def sine_criteria(x, y):
+        """Half of a sine wave."""
+
+        return y <= np.sin(np.pi * x)
+
+    proportion = monte_carlo(sine_criteria, num_points)
+    pi_estimate = 2 / proportion
+    error = np.abs(np.pi - pi_estimate)
+
+    print(f"P4: proportion = {proportion}; pi_estimate = {pi_estimate}; "
+          f"error = {error:.2f}.")
+
+
 if __name__ == "__main__":
     problem_3()
+    problem_4()
