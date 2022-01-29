@@ -33,5 +33,7 @@ if __name__ == "__main__":
 
     proportion = monte_carlo(circle_criteria, num_points)
     pi_estimate = 4 * proportion
+    error = np.abs(np.pi - pi_estimate)
 
-    print(f"P3: proportion = {proportion}; pi_estimate = {pi_estimate}.")
+    print(f"P3: proportion = {proportion}; pi_estimate = {pi_estimate}; "
+          f"error = {error:.2f}.")
