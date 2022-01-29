@@ -20,5 +20,16 @@ def midpoint_rectangular(num_points: int = 10000) -> float:
     return inside_center_circle / inside_unit_circle
 
 
+def midpoint_polar(num_points: int = 10000) -> float:
+    """Choose midpoint distance from center at random"""
+
+    distances = 2 * np.random.sample(num_points) - 1
+
+    less_than_half = (np.abs(distances) < .5).sum()
+
+    return less_than_half / num_points
+
+
 if __name__ == "__main__":
     print(f"Method 1 - {midpoint_rectangular()}.")
+    print(f"Method 2 - {midpoint_polar()}.")
