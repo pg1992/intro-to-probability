@@ -23,7 +23,7 @@ def monte_carlo(criteria, num_points) -> float:
     return in_area / num_points
 
 
-if __name__ == "__main__":
+def problem_3():
     num_points = 1000
 
     def circle_criteria(x, y):
@@ -37,3 +37,7 @@ if __name__ == "__main__":
 
     print(f"P3: proportion = {proportion}; pi_estimate = {pi_estimate}; "
           f"error = {error:.2f}.")
+
+
+if __name__ == "__main__":
+    problem_3()
