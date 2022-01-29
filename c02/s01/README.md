@@ -1,19 +1,19 @@
 Descriptions
 ============
 
-`buffon.py`
------------
+[`buffon.py`](buffon.py)
+------------------------
 
 Estimate the value of pi using Buffon's method.
 
-`normal.py`
------------
+[`normal.py`](normal.py)
+------------------------
 
 This program shows that if we sum a lot of random variables drawn from a uniform
 distribution we end up with a normal distribution.
 
-`bertrands_paradox.py`
-----------------------
+[`bertrands_paradox.py`](bertrands_paradox.py)
+----------------------------------------------
 
 This program shows that the probability of an event happening depends on how
 you define the model.
