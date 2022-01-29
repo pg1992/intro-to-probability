@@ -30,6 +30,20 @@ def midpoint_polar(num_points: int = 10000) -> float:
     return less_than_half / num_points
 
 
+def endpoint_angle(num_points: int = 10000) -> float:
+    """Choose chord endpoint angle at random"""
+
+    low = 2 * np.pi / 3
+    high = 4 * np.pi / 3
+
+    angles = 2 * np.pi * np.random.sample(num_points)
+
+    inside_arc = np.sum((angles > low) & (angles < high))
+
+    return inside_arc / num_points
+
+
 if __name__ == "__main__":
     print(f"Method 1 - {midpoint_rectangular()}.")
     print(f"Method 2 - {midpoint_polar()}.")
+    print(f"Method 3 - {endpoint_angle()}.")
