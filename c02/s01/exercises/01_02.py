@@ -1,4 +1,4 @@
-"""Problem 1
+"""Problems 1 and 2
 
 Show that the proportion of points (area of a bar) that falls in a given
 interval divided by the length of the interval, i.e. the height of the bar,
@@ -44,3 +44,16 @@ if __name__ == "__main__":
     ax.set_title('Problem 1: area = proportion')
 
     fig.savefig('01.png')
+
+    p2_params = {
+        'lengths': 1 / np.array([3, 4, 5, 6, 20]),
+        'num_experiments': 100000,
+    }
+
+    x, heights, lengths = spinner_distribution(**p2_params)
+
+    fig, ax = plt.subplots()
+    ax.bar(x, height=heights, width=lengths, align='edge', edgecolor='k')
+    ax.set_title('Problem 2: area = proportion')
+
+    fig.savefig('02.png')

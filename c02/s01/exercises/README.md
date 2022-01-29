@@ -1,7 +1,7 @@
 Description
 ===========
 
-Problem 1
----------
+Problems 1 and 2
+----------------
 
-The program [`01.py`](01.py) simulates the spinner.
+The program [`01_02.py`](01_02.py) simulates the spinner.
