@@ -6,8 +6,8 @@ Problems 1 and 2
 
 The program [`01_02.py`](01_02.py) simulates the spinner.
 
-Problems 3 and 4
-----------------
+Problems 3, 4, and 5
+--------------------
 
 The program [`monte_carlo.py`](monte_carlo.py) finds the proportion of points
 that lie in a region and we can estimate the area.  By counting only the numbers
@@ -19,3 +19,7 @@ In problem 4 the exact probability would be the area under half of a sine wave
 with 0.5 Hz frequency, which is 2 divided by pi.  We could estimate pi
 by finding the proportion _p_, i.e. 2 / _p_.  The error we get is about 0.01,
 which is a bit more accurate.
+
+In problem 5 we estimate the value of the natural log of 2 by finding the
+proportion of points that lie under the curve 1 / (x + 1).  The simulations
+with 10,000 points are very accurate, getting under 0.01.

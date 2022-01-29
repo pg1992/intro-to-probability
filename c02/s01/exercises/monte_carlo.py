@@ -55,6 +55,21 @@ def problem_4():
           f"error = {error:.2f}.")
 
 
+def problem_5():
+    num_points = 10000
+
+    def reciprocal_criteria(x, y):
+        """Reciprocal function."""
+
+        return y <= 1 / (x + 1)
+
+    proportion = monte_carlo(reciprocal_criteria, num_points)
+    error = np.abs(np.log(2) - proportion)
+
+    print(f"P5: proportion = {proportion}; error = {error:.2f}.")
+
+
 if __name__ == "__main__":
     problem_3()
     problem_4()
+    problem_5()
