@@ -31,8 +31,21 @@ if __name__ == "__main__":
     p_alternate = .8
     k, b_alternate = binomial(n, p_alternate)
 
-    plt.stem(k, b_null, linefmt='b', markerfmt='ob', label=f'Null hypothesis (n = {n}; p = {p_null})')
-    plt.stem(k, b_alternate, linefmt='k', markerfmt='ok', label=f'Alternate hypothesis (n = {n}; p = {p_alternate})')
+    plt.stem(
+        k,
+        b_null,
+        linefmt='b',
+        markerfmt='ob',
+        label=f'Null hypothesis (n = {n}; p = {p_null})',
+    )
+
+    plt.stem(
+        k,
+        b_alternate,
+        linefmt='k',
+        markerfmt='ok',
+        label=f'Alternate hypothesis (n = {n}; p = {p_alternate})',
+    )
 
     plt.legend()
     plt.show()
