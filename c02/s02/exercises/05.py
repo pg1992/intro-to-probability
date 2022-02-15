@@ -19,5 +19,6 @@ limits = [
 ]
 
 for lmin, lmax in limits:
-    prob = np.round(np.sum(b[(lmin <= k) & (lmax <= 65)]), 3)
+    rng = (lmin <= k) & (k <= lmax)
+    prob = np.round(np.sum(b[rng]), 3)
     print(f'P({lmin} <= n <= {lmax}) = {prob}')
